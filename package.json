@@ -4,10 +4,15 @@
   "type": "module",
   "scripts": {
     "dev": "wrangler dev",
-    "deploy": "wrangler deploy"
+    "deploy": "wrangler deploy",
+    "types": "tsc --noEmit"
   },
   "devDependencies": {
-    "wrangler": "^3.78.0",
-    "typescript": "^5.6.2"
+    "@cloudflare/workers-types": "^4.20240925.0",
+    "typescript": "^5.6.2",
+    "wrangler": "^3.78.0"
+  },
+  "engines": {
+    "node": ">=18.17"
   }
 }
