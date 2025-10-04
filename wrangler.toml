@@ -1,12 +1,7 @@
-name = "pages-badge-endpoint"
+name = "cloudflare-pages-status-badge"
 main = "src/worker.ts"
 compatibility_date = "2025-10-03"
 workers_dev = true
-
-# Optional: set your default environment to production
-# This way `wrangler deploy` deploys to prod without flags
-[env.production]
-workers_dev = false
 
 [observability]
 enabled = true
