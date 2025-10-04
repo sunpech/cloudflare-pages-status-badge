@@ -1,0 +1,7 @@
+name = "pages-badge-endpoint"
+main = "src/worker.ts"
+compatibility_date = "2025-10-03"
+workers_dev = true
+
+[observability]
+enabled = true
