@@ -24,6 +24,9 @@ Use this to show the deploy status of your Cloudflare Pages project right in you
 
 ![Cloudflare Pages](https://img.shields.io/endpoint?url=https://cloudflare-pages-status-badge.sunpech.workers.dev/?projectName=sunpech)
 
+![Pages (env)](https://img.shields.io/endpoint?url=https://cloudflare-pages-status-badge.sunpech.workers.dev/?projectName=sunpech&showEnv=true)
+
+![Pages (main)](https://img.shields.io/endpoint?url=https://cloudflare-pages-status-badge.sunpech.workers.dev/?projectName=sunpech&branch=main&showEnv=true)
 
 ## Deployment
 
